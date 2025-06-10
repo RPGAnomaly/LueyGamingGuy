@@ -13,33 +13,33 @@ body {
 
 @font-face {
 	font-family: "CoreMellow";
-	src: url('/fonts/CoreMellow65Bold.otf');
-	src: url('/fonts/CoreMellow65Bold.otf') format('embedded-opentype'),
-	url('/fonts/CoreMellow65Bold.woff2') format('woff2'),
-	url('/fonts/CoreMellow65Bold.woff') format('woff'),
-	url('/fonts/CoreMellow65Bold.otf') format('opentype');
+	src: url('fonts/CoreMellow65Bold.otf');
+	src: url('fonts/CoreMellow65Bold.otf') format('embedded-opentype'),
+	url('fonts/CoreMellow65Bold.woff2') format('woff2'),
+	url('fonts/CoreMellow65Bold.woff') format('woff'),
+	url('fonts/CoreMellow65Bold.otf') format('opentype');
 	font-weight: 100;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: "Avenir";
-	src: url('/fonts/AvenirLTStd-Light.otf');
-	src: url('/fonts/AvenirLTStd-Light.otf') format('embedded-opentype'),
-	url('/fonts/AvenirLTStd-Light.woff2') format('woff2'),
-	url('/fonts/AvenirLTStd-Light.woff') format('woff'),
-	url('/fonts/AvenirLTStd-Light.otf') format('opentype');
+	src: url('fonts/AvenirLTStd-Light.otf');
+	src: url('fonts/AvenirLTStd-Light.otf') format('embedded-opentype'),
+	url('fonts/AvenirLTStd-Light.woff2') format('woff2'),
+	url('fonts/AvenirLTStd-Light.woff') format('woff'),
+	url('fonts/AvenirLTStd-Light.otf') format('opentype');
 	font-weight: 100;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: "AvenirB";
-	src: url('/fonts/AvenirLTStd-Heavy.otf');
-	src: url('/fonts/AvenirLTStd-Heavy.otf') format('embedded-opentype'),
-	url('/fonts/AvenirLTStd-Heavy.woff2') format('woff2'),
-	url('/fonts/AvenirLTStd-Heavy.woff') format('woff'),
-	url('/fonts/AvenirLTStd-Heavy.otf') format('opentype');
+	src: url('fonts/AvenirLTStd-Heavy.otf');
+	src: url('fonts/AvenirLTStd-Heavy.otf') format('embedded-opentype'),
+	url('fonts/AvenirLTStd-Heavy.woff2') format('woff2'),
+	url('fonts/AvenirLTStd-Heavy.woff') format('woff'),
+	url('fonts/AvenirLTStd-Heavy.otf') format('opentype');
 	font-weight: 100;
 	font-style: bold;
 }
@@ -154,7 +154,7 @@ h4 {
 
 .ban-cont {
 	background: #010101;
-	background-image: url("/images/bannercontroller.jpg");
+	background-image: url("images/bannercontroller.jpg");
 	background-size: 70% auto;
 	background-position: 120% 40%;
 	background-repeat: no-repeat;
