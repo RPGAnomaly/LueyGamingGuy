@@ -330,6 +330,28 @@ h4 {
 	margin-top: 20px;
 }
 
+.inside-banner {
+	display: inline-block;
+	box-sizing: border-box;
+	width: 100%;
+	height: 500px;
+	position: relative;
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+.inside-banner-over {
+	display: inline-block;
+	box-sizing: border-box;
+	width: 40%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: #2A7B9B;
+	background: linear-gradient(90deg,rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
 @media screen and (min-width: 470px) {
 	.ban-txt {	
 		font-size: 26px;
