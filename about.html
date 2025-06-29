@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>About - Luey Gaming Guy</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+	</header>
+	<div id="navbar-placeholder"></div>
+	<main>
+		<div class="ov-cont content">
+			<div class="ov-cont box-left" style="background: #efefef; border-radius: 20px; position: relative;">
+				<span class="bubble-tail"><!--&--></span>
+				<h2>Luey Gaming Guy</h2>
+				<div class="contentnorm">
+					Luey Gaming Guy Inc. is a full gaming and community experience for Gamers from all walks of life. From having a store where we sell retro video games and consoles (and sometimes new), to Live streaming and chatting with viewers in Twitch and Discord, there is a slice of pie for everyone to enjoy, including YOU!
+				</div>
+				<a href="" class="ban-btn"" style="color: #010101; font-family: AvenirB;">LEARN MORE</a>
+			</div>
+			<div class="ov-cont box-right">
+				<img class="box-right-img" src="images/ShotoMascot.png">
+			</div>
+			<div class="ov-cont box-left" style="width: 100%; text-align: center; padding-top: 0px;">
+				<h2>Services</h2>
+			</div>
+		</div>
+	</main>
+	<div id="footer-placeholder"></div>
+	<script src="navbar.js"></script>
+</body>
+<script>
+function navFunction() {
+	var x = document.getElementById("navLinks");
+	if (x.style.display === "block") {
+		x.style.display = "none";
+	} else {
+		x.style.display = "block";
+	}
+}
+fetch('footer.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('footer-placeholder').innerHTML = data;
+      });
+</script>
+</html>
